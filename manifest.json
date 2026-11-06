@@ -1,0 +1,20 @@
+{
+  "id": "dev.alijati.internetarchive.flac",
+  "name": "Internet Archive FLAC",
+  "version": "1.0.0",
+  "resources": ["search", "stream"],
+  "bitchordAuth": true,
+  "allowDownloads": 1,
+  "settings": [
+    {
+      "key": "quality",
+      "type": "select",
+      "label": "Audio quality",
+      "default": "lossless",
+      "options": [
+        { "value": "lossless", "label": "Lossless FLAC" },
+        { "value": "hires", "label": "Hi-Res FLAC (verified only)" }
+      ]
+    }
+  ]
+}
